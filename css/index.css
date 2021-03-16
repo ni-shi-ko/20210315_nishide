@@ -67,17 +67,20 @@
   font-weight: bold;
 }
 .service_wrap {
-  padding: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .service_container {
- width: 50%;
+  width: 50%;
 }
 .service_container img {
-  width: 65%;
+  display: block;
+  width: 80%;
 }
 .service_container p {
   width: 50%;
+}
+.btn {
+  text-align: center;
 }
